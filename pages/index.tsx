@@ -12,7 +12,7 @@ export default function Home() {
       <div className={styles.container}>
         <img
           className={styles.image_background}
-          src="/background_index.png"
+          src="/backgrounds/background_index.png"
           alt="background"
         />
         <div className={styles.title_container}>
@@ -22,16 +22,20 @@ export default function Home() {
         </div>
 
         <div className={styles.logo_container}>
-          <img
-            className={styles.logo}
-            src="/ValeTourLogo.png"
-            alt="background"
-          />
+          <img src="/logo/ValeTourLogo.png" alt="background" />
         </div>
 
         <div className={styles.lojas}>
-          <img className={styles.loja} src="/GooglePlay.png" alt="background" />
-          <img className={styles.loja} src="/AppStore.png" alt="background" />
+          <img
+            className={styles.loja}
+            src="/lojas/GooglePlay.png"
+            alt="background"
+          />
+          <img
+            className={styles.loja}
+            src="/lojas/AppStore.png"
+            alt="background"
+          />
         </div>
       </div>
     </>

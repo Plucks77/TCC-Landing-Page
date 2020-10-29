@@ -32,9 +32,6 @@
   right: 5em;
 }
 
-.logo {
-}
-
 .lojas {
   position: absolute;
   bottom: 1em;
@@ -46,4 +43,5 @@
 .loja {
   margin: 0 1em;
   width: 150px;
+  cursor: pointer;
 }

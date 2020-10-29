@@ -16,19 +16,19 @@ export default function Sobre() {
           </div>
           <img
             className={styles.image_background}
-            src="/background_sobre.png"
+            src="/backgrounds/background_sobre.png"
             alt=""
           />
         </div>
 
         <div className={styles.explanation}>
           <h3>
-            Por isso precisamos incentivar as pessoas a conhecer nossas belezas
-            naturais e uma forma de fazer isso é através do turismo.
+            E por isso precisamos incentivar as pessoas a conhecer nossas
+            belezas naturais e uma forma de fazer isso é através do turismo.
             Inicialmente, nosso aplicativo contará com duas cidades:
           </h3>
           <div className={styles.city}>
-            <img src="/Resende.png" alt="" />
+            <img src="/cidades/Resende.png" alt="" />
             <span>
               Localizada às margens da Rodovia Presidente Dutra (BR-116), que
               liga o Rio de Janeiro a São Paulo, Resende é uma das mais belas
@@ -41,7 +41,7 @@ export default function Sobre() {
           </div>
 
           <div className={styles.city}>
-            <img src="/Itatiaia.png" alt="" />
+            <img src="/cidades/Itatiaia.png" alt="" />
             <span>
               Em Itatiaia, o visitante encontra montanhas, com ótimos lugares
               para a prática de escalada e florestas úmidas com cachoeiras. Além
@@ -63,13 +63,13 @@ export default function Sobre() {
           <span>Pacotes:</span>
           <div className={styles.pacotes}>
             <div className={styles.pacote}>
-              <img src="/Pacote 1.png" alt="" />
+              <img src="/pacotes/Pacote 1.png" alt="" />
             </div>
             <div className={styles.pacote}>
-              <img src="/Pacote 1.png" alt="" />
+              <img src="/pacotes/Pacote 1.png" alt="" />
             </div>
             <div className={styles.pacote}>
-              <img src="/Pacote 1.png" alt="" />
+              <img src="/pacotes/Pacote 1.png" alt="" />
             </div>
           </div>
         </div>
