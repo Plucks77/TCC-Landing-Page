@@ -1,5 +1,13 @@
 .container {
-  background-color: lightblue;
-  width: 100px;
-  height: 100px;
+  position: absolute;
+  top: 1em;
+  left: 4em;
+}
+
+.link {
+  margin: 0 1em;
+  color: white;
+  /* text-shadow: 2px 2px 8px black; */
+  font-weight: bold;
+  font-size: 18px;
 }

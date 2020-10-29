@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image_background {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: -5;
+}
+
+.image_container {
+  display: flex;
+}
+.title_container {
+  position: absolute;
+  top: 7em;
+  left: 5em;
+}
+
+.title {
+  color: white;
+  text-shadow: 2px 2px 8px black;
+  font-size: 48px;
+}
+
+.explanation h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.city {
+  margin: 1em 1em;
+  border: 1px solid black;
+  border-radius: 20px;
+  max-height: 280px;
+  display: flex;
+}
+
+.city span {
+  margin: 1em;
+  font-size: 24px;
+}
+
+.pacote_container {
+  margin: 0 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.pacote_container h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.pacote_container span {
+  font-weight: 600;
+  font-size: 24px;
+  align-self: center;
+  margin-bottom: 1em;
+}
+
+.pacotes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pacote img {
+  width: 400px;
+}

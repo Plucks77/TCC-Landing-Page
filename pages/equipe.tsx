@@ -1,12 +1,14 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Equipe() {
-    return (
-        <>
-            <Head>
-                <title>Equipe</title>
-            </Head>
-            <h1>Equipe</h1>
-        </>
-    )
+  return (
+    <>
+      <Head>
+        <title>Equipe</title>
+      </Head>
+      <Header />
+      <h1>Equipe</h1>
+    </>
+  );
 }
