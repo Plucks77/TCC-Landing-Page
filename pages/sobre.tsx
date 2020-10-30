@@ -58,7 +58,7 @@ export default function Sobre() {
             bem conhecidos e explorados Nosso objetivo com o projeto é divulgar
             nossa região e mostrar para os turistas novos locais que valem a
             pena conhecer, assim como aumentar o alcance do trabalho de
-            profissionais da área. Faremos isso através dos nossos pacotes:
+            profissionais da área. Faremos isso através dos nossos pacotes.
           </h3>
           <span>Pacotes:</span>
           <div className={styles.pacotes}>

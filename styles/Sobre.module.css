@@ -27,8 +27,9 @@
 
 .explanation h3 {
   text-align: center;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 1em 3em;
 }
 
 .city {
@@ -52,16 +53,16 @@
 
 .pacote_container h3 {
   text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 1em;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 1em 3em;
 }
 
 .pacote_container span {
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 32px;
   align-self: center;
-  margin-bottom: 1em;
+  margin: 1em 3em;
 }
 
 .pacotes {
