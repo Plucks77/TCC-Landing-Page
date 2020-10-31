@@ -18,12 +18,13 @@
 .title {
   color: white;
   text-shadow: 2px 2px 8px black;
-  font-size: 48px;
+  font-size: 52px;
 }
 
 .subtitle {
   color: white;
   text-shadow: 2px 2px 8px black;
+  font-size: 32px;
 }
 
 .logo_container {
