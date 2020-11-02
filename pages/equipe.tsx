@@ -39,11 +39,11 @@ export default function Equipe() {
             <div className={styles.equipe_container_card}>
               <img src="/fotos/Santiago.png" alt="" />
               <div className={styles.equipe_card_text}>
-                <h3>Santiago</h3>
+                <h3>Santiago José Franco Lopes</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit
-                  molestias iusto cumque ratione odit nesciunt est possimus ex nisi. In quo
-                  distinctio mollitia molestias libero sed aliquam quos labore!
+                  Coordenador de TI com experiência de gestão de projetos de TI, Coordenação e
+                  suporte para ambiente ERP SAP, Responsável pela Segurança da Informação,
+                  Otimização dos recursos para redução de custos operacionais.
                 </p>
               </div>
             </div>
@@ -55,16 +55,22 @@ export default function Equipe() {
               <div className={styles.equipe_container_card}>
                 <img src="/fotos/Alexya.png" alt="" />
                 <div className={styles.equipe_card_text}>
-                  <h3>Alexya</h3>
-                  <p>Lorem</p>
+                  <h3>Alexya de Souza</h3>
+                  <p>
+                    Responsável pelo Marketing do projeto Vale Tour. Apaixonada pelo setor
+                    responsável por captar novos usuários e manter a satisfação dos clientes.
+                  </p>
                 </div>
               </div>
 
               <div className={styles.equipe_container_card}>
                 <img src="/fotos/Joyce.png" alt="" />
                 <div className={styles.equipe_card_text}>
-                  <h3>Joyce</h3>
-                  <p>Lorem ipsum dolor sit amet c</p>
+                  <h3>Joyce Ríbeiro de Almeida Martins</h3>
+                  <p>
+                    Responsável pelo setor financeiro do aplicativo. Fascinada por buscar novas
+                    estratégias de vendas e redução de custos.
+                  </p>
                 </div>
               </div>
             </div>
